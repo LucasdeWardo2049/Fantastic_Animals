@@ -1,22 +1,18 @@
-var nome =  'Andre';
-var idade = 28;
-var possuiFaculdade = true;
+const animais = document.getElementById("animais");
+console.log(animais);
 
-console.log(nome, idade, possuiFaculdade, nome);
+const gridSection = document.getElementsByClassName("grid-section");
 
-var preco = 25;
-var totalComprado = 5;
-var totalComprado = totalComprado + preco;
+console.log(gridSection[1]);
 
-console.log(totalComprado);
+const primeiraLi = document.querySelector("li");
+console.log(primeiraLi);
 
-x = 5; // Atribuição de valor a uma variável não declarada
-console.log(x); // 5 é exibido no console se não seria undefined
+const primeiraUl = document.querySelector("ul");
+console.log(primeiraUl);
 
-foo(); // Chamada da função foo antes de declará-la
+const linksInterno = document.querySelector('[href^="#]');
+console.log(linksInterno);
 
-console.log(5 !== "5"); // true (os valores são diferentes e os tipos também)
-console.log(5 !== 10); // true (os valores são diferentes)
-
-// o operador !== compara os valores sem fazer a conversão de tipo.
-
+const animaisImg = document.querySelectorAll('.animais img');
+console.log(animaisImg[0]);
